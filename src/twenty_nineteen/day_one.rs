@@ -1,7 +1,3 @@
-pub fn thingy() {
-    println!("hello there");
-}
-
 pub fn get_fuel_requirement(mass: i64) -> i64 {
     let floor_divide_by_3: i64 = mass / 3;
     floor_divide_by_3 - 2
